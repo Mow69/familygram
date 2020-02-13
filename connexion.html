@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/fontawesome-free-5.12.0-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--
+      <link rel="stylesheet" href="css/custom.css" />
+    -->
+    <title>Familygram</title>
+  </head>
+
+  <body>
+    <nav
+      id="header"
+      class="navbar sticky-top navbar-light bg-light d-flex justify-content-center container-fluid"
+    >
+      <a class="navbar-brand" href="#">
+        <img src="img/logo_250.png" height="40" alt="Familygram" />
+      </a>
+    </nav>
+
+    <div id="content" class="container-fluid py-4">
+      <div class="row my-3">
+        <div class="col text-center">
+          <h1>Connectes-toi pour accéder au<br />réseau social de la family</h1>
+          <p>
+            1 minute suffit !
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col mx-3">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Adresse e-mail</label> <br />
+              <input
+                type="email"
+                class="form-control-lg d-block w-100"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="johndoe@mail.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Mot de passe</label> <br />
+              <div class="iconInput">
+                <input
+                  type="password"
+                  class="form-control-lg d-block w-100"
+                  id="exampleInputPassword1"
+                  placeholder="*******"
+                />
+                <i class="fas fa-eye-slash"></i>
+              </div>
+              <small id="passwordHelp" class="form-text text-muted d-flex justify-content-center m-2">
+                <a href="#" class="text-dark">
+                  Mot de passe oublié ?
+                </a>
+              </small>
+            </div>
+            <button
+              type="submit"
+              class="btn btn-outline-secondary btn-lg d-block w-100 py-3 border-dark"
+            >
+              Créer mon compte
+            </button>
+          </form>
+
+          <!--
+            <table width="100%">
+              <tr>
+                <td><hr /></td>
+                <td style="width:1px; padding: 0 10px; white-space: nowrap;">
+                  OU
+                </td>
+                <td><hr /></td>
+              </tr>
+            </table>
+          -->
+
+          <div class="ligne"><span>OU</span></div>
+
+          <button
+            type="submit"
+            class="btn btn-outline-secondary btn-lg d-block w-100 py-3 border-dark mb-2"
+          >
+            <i class="fab fa-facebook-f float-left m-1"></i>
+            Se connecter via Facebook
+          </button>
+
+          <button
+            type="submit"
+            class="btn btn-outline-secondary btn-lg d-block w-100 py-3 border-dark"
+          >
+            <i class="fab fa-google float-left m-1"></i>
+            Se connecter via Google
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <nav id="btBas" class="navbar fixed-bottom bg-secondary container-fluid ">
+      <a href="#" class="btn btn-sm btn-block text-white">
+        Créer un compte
+      </a>
+    </nav>
+
+    <nav
+      id="footer"
+      class="navbar fixed-bottom navbar-light bg-light container-fluid d-flex justify-content-around"
+    >
+      <a
+        href="#"
+        class="d-flex flex-column align-items-center btn btn-sm m-0 p-0 active"
+      >
+        <i class="fas fa-home fa-2x"></i>
+        <span>Accueil</span>
+      </a>
+      <a
+        href="#"
+        class="d-flex flex-column align-items-center btn btn-sm m-0 p-0"
+      >
+        <i class="fas fa-camera-retro  fa-2x"></i>
+        <span>Publier</span>
+      </a>
+      <a
+        href="#"
+        class="d-flex flex-column align-items-center btn btn-sm m-0 p-0"
+      >
+        <i class="fas fa-search fa-2x"></i>
+        <span>Membres</span>
+      </a>
+      <a
+        href="#"
+        class="d-flex flex-column align-items-center btn btn-sm m-0 p-0"
+      >
+        <i class="fas fa-heart fa-2x"></i>
+        <span>Favoris</span>
+      </a>
+      <a
+        href="#"
+        class="d-flex flex-column align-items-center btn btn-sm m-0 p-0"
+      >
+        <i class="fas fa-user fa-2x"></i>
+        <span>Profil</span>
+      </a>
+    </nav>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

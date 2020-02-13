@@ -1,0 +1,98 @@
+html{
+  height:100%;
+}
+
+body{
+  background:#cccccc;
+  height:100%;
+}
+
+h1{
+  font-size:1.4em;
+}
+
+h2{
+  font-size:1.3em;
+}
+
+p{
+  font-size: 1.2em;
+}
+
+.container-fluid{
+  max-width:576px;
+}
+
+#header{
+  height:66px;
+}
+
+#content{
+  margin:0px auto 66px;
+  background:white;
+  min-height:calc(100% - 132px);
+}
+
+.ligne{
+border-top: 2px solid #8c8b8b;
+  margin-top:30px;
+  text-align:center;
+}
+
+.ligne>span{
+  position:relative;
+  bottom:15px;
+  background:white;
+  padding:0 20px;
+}
+
+#btBas{
+  bottom:66px;
+}
+
+/* #btDesabonner {
+  max-width: fit-content;
+  align-self: center;
+} */
+
+.iconInput{
+  position:relative;
+}
+
+.iconInput i{
+  position:absolute;
+  top:12px;
+  right:15px;
+}
+
+#footer{
+  height:66px;
+}
+
+/* 
+#menu {
+  min-height: 500px;
+}
+
+#contenu {
+  min-height: 500px;
+  background: url(../img/fond2.jpg) no-repeat bottom center;
+  background-size: cover;
+}
+
+#contenu.noBg {
+  min-height: 500px;
+  background: none;
+}
+
+#encart {
+  background: rgba(0, 0, 0, 0.5);
+} */
+
+/* mobiles */
+/* @media only screen and (max-width: 576px) { */
+/* #menu,
+  #contenu {
+    min-height: 0;
+  } */
+/* } */
