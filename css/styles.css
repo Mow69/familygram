@@ -15,6 +15,10 @@ h2 {
   font-size: 1.8em;
 }
 
+h3 {
+  font-size: 1.4em;
+}
+
 p {
   font-size: 1.1em;
 }
@@ -49,11 +53,6 @@ p {
 #btBas {
   bottom: 66px;
 }
-
-/* #btDesabonner {
-  max-width: fit-content;
-  align-self: center;
-} */
 
 .circleIcon {
   border: 1px solid gray;
@@ -104,31 +103,3 @@ p {
 #footer {
   height: 66px;
 }
-
-/* 
-#menu {
-  min-height: 500px;
-}
-
-#contenu {
-  min-height: 500px;
-  background: url(../img/fond2.jpg) no-repeat bottom center;
-  background-size: cover;
-}
-
-#contenu.noBg {
-  min-height: 500px;
-  background: none;
-}
-
-#encart {
-  background: rgba(0, 0, 0, 0.5);
-} */
-
-/* mobiles */
-/* @media only screen and (max-width: 576px) { */
-/* #menu,
-  #contenu {
-    min-height: 0;
-  } */
-/* } */
